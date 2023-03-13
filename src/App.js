@@ -1,22 +1,6 @@
-/**
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-import { useEffect } from "react";
-
-// react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import routes from "./routes";
 
 // @mui material components
 import { ThemeProvider } from "@mui/material/styles";
@@ -24,12 +8,14 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 // Material Kit 2 React themes
 import theme from "./assets/theme";
-import Presentation from "./layouts/pages/presentation";
+import Presentation from "./layouts/pages/Presentation";
 
 // Material Kit 2 React routes
-import routes from "./routes";
+//import routes from "./routes";
 
-export default function App() {
+
+function App() {
+
   const { pathname } = useLocation();
 
   // Setting page scroll to 0 when changing the route
@@ -52,7 +38,9 @@ export default function App() {
     });
 
   return (
-    <ThemeProvider theme={theme}>
+    <div className="App">
+      
+      <ThemeProvider theme={theme}>
       <CssBaseline />
       <Routes>
         {getRoutes(routes)}
@@ -60,5 +48,11 @@ export default function App() {
         <Route path="*" element={<Navigate to="/presentation" />} />
       </Routes>
     </ThemeProvider>
+        
+      
+    </div>
   );
 }
+
+export default App;
+

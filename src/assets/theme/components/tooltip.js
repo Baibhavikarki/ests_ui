@@ -28,6 +28,7 @@ const { black, light } = colors;
 const { size, fontWeightRegular } = typography;
 const { borderRadius } = borders;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   defaultProps: {
     arrow: true,

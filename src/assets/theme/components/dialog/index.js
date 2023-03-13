@@ -20,6 +20,7 @@ import boxShadows from "../../base/boxShadows";
 const { borderRadius } = borders;
 const { xxl } = boxShadows;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     paper: {

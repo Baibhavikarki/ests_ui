@@ -23,6 +23,7 @@ import pxToRem from "../../functions/pxToRem";
 const { dark } = colors;
 const { size, fontWeightBold } = typography;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     root: {

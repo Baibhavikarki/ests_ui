@@ -25,6 +25,7 @@ const { grey, white } = colors;
 const { borderRadius } = borders;
 const { tabsBoxShadow } = boxShadows;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     root: {

@@ -25,6 +25,7 @@ const { size, fontWeightRegular } = typography;
 const { borderRadius } = borders;
 const { dark } = colors;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     root: {

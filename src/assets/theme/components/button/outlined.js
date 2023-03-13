@@ -23,6 +23,7 @@ import pxToRem from "../../functions/pxToRem";
 const { transparent, light, info, secondary } = colors;
 const { size } = typography;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   base: {
     minHeight: pxToRem(40),

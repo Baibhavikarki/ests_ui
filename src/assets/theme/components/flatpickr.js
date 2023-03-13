@@ -21,6 +21,7 @@ import rgba from "../functions/rgba";
 
 const { info, white, gradients } = colors;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   ".flatpickr-day:hover, .flatpickr-day:focus, .flatpickr-day.nextMonthDay:hover, .flatpickr-day.nextMonthDay:focus":
     {

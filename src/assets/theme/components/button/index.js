@@ -19,6 +19,7 @@ import contained from "./contained";
 import outlined from "./outlined";
 import text from "./text";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   defaultProps: {
     disableRipple: false,

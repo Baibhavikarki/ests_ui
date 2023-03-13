@@ -27,6 +27,7 @@ const { size } = typography;
 const { text, white, transparent, light, dark, gradients } = colors;
 const { borderRadius } = borders;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     popper: {

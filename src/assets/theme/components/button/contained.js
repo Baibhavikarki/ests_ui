@@ -23,6 +23,7 @@ import pxToRem from "../../functions/pxToRem";
 const { white, text, info, secondary } = colors;
 const { size } = typography;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   base: {
     backgroundColor: white.main,

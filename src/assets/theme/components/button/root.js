@@ -23,6 +23,7 @@ import pxToRem from "../../functions/pxToRem";
 const { fontWeightBold, size } = typography;
 const { borderRadius } = borders;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   display: "inline-flex",
   justifyContent: "center",

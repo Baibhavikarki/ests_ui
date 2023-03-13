@@ -38,6 +38,7 @@ const sharedClasses = {
   position: "relative",
 };
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   [SM]: {
     ".MuiContainer-root": {

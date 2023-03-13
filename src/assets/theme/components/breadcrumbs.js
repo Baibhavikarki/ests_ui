@@ -20,6 +20,7 @@ import typography from "../base/typography";
 const { grey } = colors;
 const { size } = typography;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     li: {

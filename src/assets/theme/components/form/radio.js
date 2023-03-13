@@ -24,6 +24,7 @@ import linearGradient from "../../functions/linearGradient";
 const { borderWidth, borderColor } = borders;
 const { transparent, info } = colors;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     root: {

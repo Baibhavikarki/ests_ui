@@ -16,6 +16,7 @@ Coded by www.creative-tim.com
 // Material Kit 2 React Helper Functions
 import pxToRem from "../../functions/pxToRem";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     root: {

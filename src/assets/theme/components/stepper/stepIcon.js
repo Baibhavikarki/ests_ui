@@ -22,6 +22,7 @@ import boxShadow from "../../functions/boxShadow";
 
 const { white } = colors;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   styleOverrides: {
     root: {

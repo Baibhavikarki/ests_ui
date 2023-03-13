@@ -27,6 +27,7 @@ import boxShadow from "../functions/boxShadow";
 
 const { black, white, tabs, coloredShadows } = colors;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   xs: boxShadow([0, 2], [9, -5], black.main, 0.15),
   sm: boxShadow([0, 5], [10, 0], black.main, 0.12),

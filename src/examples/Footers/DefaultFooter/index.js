@@ -26,10 +26,9 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "../../../components/MKBox";
 import MKTypography from "../../../components/MKTypography";
-import { fontSize } from "@mui/system";
 
 function DefaultFooter({ content }) {
-  const { brand, socials, menus, copyright } = content;
+  const { brand, socials } = content;
 
   return (
     <MKBox component="footer">

@@ -19,6 +19,7 @@ Coded by www.creative-tim.com
  * You can customized the breakpoints for the entire Material Kit 2 React using thie file.
  */
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   values: {
     xs: 0,

@@ -27,6 +27,7 @@ const { white, gradients, grey, transparent } = colors;
 const { borderWidth } = borders;
 const { md } = boxShadows;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   defaultProps: {
     disableRipple: false,
